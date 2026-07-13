@@ -1,0 +1,31 @@
+.left-rectangle {
+    width: 300px;
+    height: 130px;
+    background: linear-gradient(165deg, #3f3f3f 0%, #383838 15%, #080808 50%);
+    border-top: 2px solid rgb(217, 217, 217);
+    border-left: 2px solid rgb(217, 217, 217);
+    border-radius: 15px;
+    padding: 20px;
+}
+.middle-rectangle {
+    width: 300px;
+    height: 130px;
+    background: linear-gradient(180deg, #3f3f3f 0%, #2b2b2b 18%, #080808 40%);
+    border-top: 2px solid rgb(217, 217, 217);
+    border-radius: 15px;
+    padding: 20px;
+}
+.right-rectangle {
+    width: 300px;
+    height: 130px;
+    background: linear-gradient(190deg, #3f3f3f 0%, #383838 15%, #080808 50%);
+    border-top: 2px solid rgb(217, 217, 217);
+    border-right: 2px solid rgb(217, 217, 217);
+    border-radius: 15px;
+    padding: 20px;
+}
+.rectangle-align{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}

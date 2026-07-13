@@ -1,0 +1,72 @@
+.portfolio-page h1 {
+    font-size: 34px;
+}
+
+.project-section {
+    width: 75%;
+    margin: 40px auto;
+}
+
+.project-card {
+    background: linear-gradient(165deg, #3f3f3f 0%, #383838 15%, #080808 50%);
+    border-top: 2px solid rgb(217, 217, 217);
+    border-left: 2px solid rgb(217, 217, 217);
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-title h3 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.project-title span {
+    font-style: italic;
+    color: #f2bd67;
+}
+
+.project-card p {
+    color: #f2bd67;
+    font-style: italic;
+}
+
+.project-card ul {
+    text-align: left;
+}
+
+.project-card li {
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.github-section {
+    width: 75%;
+    margin: 50px auto;
+}
+
+.repo-box {
+    background: linear-gradient(180deg, #3f3f3f 0%, #2b2b2b 18%, #080808 40%);
+    border-top: 2px solid rgb(217, 217, 217);
+    border-radius: 15px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.repo-box a {
+    color: #f2bd67;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.repo-box a:hover {
+    opacity: 0.6;
+}

@@ -1,0 +1,117 @@
+.bio-page h1 {
+    font-size: 34px;
+    margin-bottom: 25px;
+}
+
+.bio-box {
+    background: linear-gradient(180deg, #3f3f3f 0%, #2b2b2b 18%, #080808 40%);
+    border-top: 2px solid rgb(217, 217, 217);
+    border-radius: 15px;
+    padding: 22px;
+    margin-bottom: 22px;
+}
+
+.bio-box p {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.experience-box {
+    background: linear-gradient(165deg, #3f3f3f 0%, #383838 15%, #080808 50%);
+    border-top: 2px solid rgb(217, 217, 217);
+    border-left: 2px solid rgb(217, 217, 217);
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 18px;
+}
+
+.job-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job-title h2 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.job-title span {
+    color: #f2bd67;
+    font-style: italic;
+}
+
+.experience-box h3 {
+    margin-top: 8px;
+    color: #f2bd67;
+    font-size: 16px;
+}
+
+.experience-box ul {
+    margin-bottom: 0;
+}
+
+.experience-box li {
+    text-align: left;
+    margin-bottom: 6px;
+}
+
+.education-box {
+    background: linear-gradient(165deg, #3f3f3f 0%, #383838 15%, #080808 50%);
+    border-top: 2px solid rgb(217, 217, 217);
+    border-left: 2px solid rgb(217, 217, 217);
+    border-radius: 15px;
+    padding: 22px;
+    margin-bottom: 22px;
+}
+
+.education-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.education-title h2 {
+    margin: 0;
+    font-size: 19px;
+}
+
+.education-box {
+    color: #f2bd67;
+}
+
+.education-title span {
+    color: #f2bd67;
+    font-style: italic;
+}
+
+.education-box p {
+    margin-top: 6px;
+    margin-bottom: 18px;
+    color: white;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #f2bd67;
+    color: #222;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.button:hover {
+    background-color: #e8ae4f;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(242, 189, 103, 0.35);
+}
+
+.button:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
