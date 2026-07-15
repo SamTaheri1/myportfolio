@@ -60,6 +60,13 @@ main{
     user-select: none;
 }
 
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+}
+
 .items img {
     transition: opacity 0.3s ease;
 }
@@ -131,13 +138,6 @@ nav ul {
     width: 150px;
     height: 1px;
     background-color: white;
-}
-
-.items {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap:15px;
 }
 
 
