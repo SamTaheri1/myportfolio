@@ -1,24 +1,26 @@
 body {
     margin: 0;
-    font-family: 'Segoe UI';
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
     background-color: rgb(8,8,8);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 main{
     padding: 4.375rem;
 }
 
+.main-content{
+    flex: 1;
+}
+
 *{
+    font-family: inherit;
     color: white;
     text-align: center;
 }
 
-.page-content {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
 .top-navbar {
     height: 3.75rem;
