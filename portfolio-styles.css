@@ -1,19 +1,19 @@
 .portfolio-page h1 {
-    font-size: 34px;
+    font-size: 2.125rem;
 }
 
 .project-section {
     width: 75%;
-    margin: 40px auto;
+    margin: 2.5rem auto;
 }
 
 .project-card {
     background: linear-gradient(165deg, #3f3f3f 0%, #383838 15%, #080808 50%);
-    border-top: 2px solid rgb(217, 217, 217);
-    border-left: 2px solid rgb(217, 217, 217);
-    border-radius: 15px;
-    padding: 25px;
-    margin-bottom: 25px;
+    border-top: 0.125rem solid rgb(217, 217, 217);
+    border-left: 0.125rem solid rgb(217, 217, 217);
+    border-radius: 0.9375rem;
+    padding: 1.5625rem;
+    margin-bottom: 1.5625rem;
 }
 
 .project-title {
@@ -24,7 +24,7 @@
 
 .project-title h3 {
     margin: 0;
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 .project-title span {
@@ -43,22 +43,22 @@
 
 .project-card li {
     text-align: left;
-    margin-bottom: 8px;
+    margin-bottom: 0.5rem;
 }
 
 .github-section {
     width: 75%;
-    margin: 50px auto;
+    margin: 3.125rem auto;
 }
 
 .repo-box {
     background: linear-gradient(180deg, #3f3f3f 0%, #2b2b2b 18%, #080808 40%);
-    border-top: 2px solid rgb(217, 217, 217);
-    border-radius: 15px;
-    padding: 25px;
+    border-top: 0.125rem solid rgb(217, 217, 217);
+    border-radius: 0.9375rem;
+    padding: 1.5625rem;
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 2.5rem;
 }
 
 .repo-box a {

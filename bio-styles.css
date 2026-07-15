@@ -1,14 +1,14 @@
 .bio-page h1 {
-    font-size: 34px;
-    margin-bottom: 25px;
+    font-size: 2.125rem;
+    margin-bottom: 1.5625rem;
 }
 
 .bio-box {
     background: linear-gradient(180deg, #3f3f3f 0%, #2b2b2b 18%, #080808 40%);
-    border-top: 2px solid rgb(217, 217, 217);
-    border-radius: 15px;
-    padding: 22px;
-    margin-bottom: 22px;
+    border-top: 0.125rem solid rgb(217, 217, 217);
+    border-radius: 0.9375rem;
+    padding: 1.375rem;
+    margin-bottom: 1.375rem;
 }
 
 .bio-box p {
@@ -19,11 +19,11 @@
 
 .experience-box {
     background: linear-gradient(165deg, #3f3f3f 0%, #383838 15%, #080808 50%);
-    border-top: 2px solid rgb(217, 217, 217);
-    border-left: 2px solid rgb(217, 217, 217);
-    border-radius: 15px;
-    padding: 20px;
-    margin-bottom: 18px;
+    border-top: 0.125rem solid rgb(217, 217, 217);
+    border-left: 0.125rem solid rgb(217, 217, 217);
+    border-radius: 0.9375rem;
+    padding: 1.25rem;
+    margin-bottom: 1.125rem;
 }
 
 .job-title {
@@ -34,7 +34,7 @@
 
 .job-title h2 {
     margin: 0;
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 .job-title span {
@@ -43,9 +43,9 @@
 }
 
 .experience-box h3 {
-    margin-top: 8px;
+    margin-top: 0.5rem;
     color: #f2bd67;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .experience-box ul {
@@ -54,16 +54,16 @@
 
 .experience-box li {
     text-align: left;
-    margin-bottom: 6px;
+    margin-bottom: 0.375rem;
 }
 
 .education-box {
     background: linear-gradient(165deg, #3f3f3f 0%, #383838 15%, #080808 50%);
-    border-top: 2px solid rgb(217, 217, 217);
-    border-left: 2px solid rgb(217, 217, 217);
-    border-radius: 15px;
-    padding: 22px;
-    margin-bottom: 22px;
+    border-top: 0.125rem solid rgb(217, 217, 217);
+    border-left: 0.125re solid rgb(217, 217, 217);
+    border-radius: 0.9375rem;
+    padding: 1.375rem;
+    margin-bottom: 1.375rem;
 }
 
 .education-title {
@@ -74,7 +74,7 @@
 
 .education-title h2 {
     margin: 0;
-    font-size: 19px;
+    font-size: 1.1875rem;
 }
 
 .education-box {
@@ -87,19 +87,19 @@
 }
 
 .education-box p {
-    margin-top: 6px;
-    margin-bottom: 18px;
+    margin-top: 0.375rem;
+    margin-bottom: 1.125rem;
     color: white;
 }
 
 .button {
     display: inline-block;
-    padding: 12px 28px;
+    padding: 0.75rem 1.75rem;
     background-color: #f2bd67;
     color: #222;
     border: none;
-    border-radius: 8px;
-    font-size: 16px;
+    border-radius: 0.5rem;
+    font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.25s ease;
@@ -107,7 +107,7 @@
 
 .button:hover {
     background-color: #e8ae4f;
-    transform: translateY(-3px);
+    transform: translateY(-0.1875rem);
     opacity: 0.6;
 }
 
