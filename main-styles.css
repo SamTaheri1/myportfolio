@@ -66,11 +66,17 @@ main{
     user-select: none;
 }
 
+.items-wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
 .items {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:15px;
+    gap:30px;
+    animation: items 10s linear infinite;
 }
 
 .items img {
@@ -172,4 +178,52 @@ body {
     to {
         opacity: 1;
     }
+}
+
+.main-spacing {
+    display: block;
+    margin-bottom: 3rem;
+}
+
+.spacing{
+    display: block;
+    padding-bottom: 1.5rem;
+}
+
+
+@media(max-width:768px){
+    main{
+        padding-bottom: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    nav{
+        height: 3.5rem;
+    }
+
+    .main-spacing {
+        margin-bottom: 2.5rem;
+    }
+
+    .spacing{
+        padding-bottom: 1rem;
+    }
+
+
+    .mobile-spacing{
+        padding-bottom: 1rem;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    h2{
+        font-size: 1rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
 }
