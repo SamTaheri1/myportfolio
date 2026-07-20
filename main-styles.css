@@ -29,7 +29,8 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #080808;
+    background: rgba(8,8,8,0.85);
+    backdrop-filter: blur(16px);
     border-bottom: 0.125rem solid #1a1a1a;
     position: fixed;
     top: 0;
@@ -42,7 +43,7 @@ main{
     display: flex;
     align-items: center;
     gap: 1.125rem;
-    color: #f5f5f5;
+    color: rgb(245,245,245);
     text-decoration: none;
     font-size: 1.1875rem;
     font-weight: 800;
@@ -206,12 +207,15 @@ body {
     }
 
     .spacing{
-        padding-bottom: 1rem;
+        display:none;
     }
 
 
     .mobile-spacing{
-        padding-bottom: 1rem;
+        padding-bottom: 2rem;
+    }
+    .secondary-mobile-spacing{
+        padding-bottom: 1rem
     }
 
     h1{
