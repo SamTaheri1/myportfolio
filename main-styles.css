@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding-top: 3.75rem;
-    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     background-color: rgb(8,8,8);
     min-height: 100vh;
     display: flex;
@@ -54,12 +54,12 @@ main{
 .brand {
     display: flex;
     align-items: center;
-    gap: 1.125rem;
+    gap: 1.25rem;
     color: rgb(245,245,245);
     text-decoration: none;
-    font-size: 1.1875rem;
-    font-weight: 800;
-    letter-spacing: 0.0.01875rem;
+    letter-spacing: 0.1rem;
+    font-size: 1.25rem;
+    font-weight: 700;
 }
 
 
@@ -235,7 +235,7 @@ html, body {
         font-size: 0.95rem;
     }
 
-    p, .nav-links a{
+    body, .nav-links a{
         font-size: 0.9rem;
     }
 }
