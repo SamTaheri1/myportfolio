@@ -40,7 +40,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: rgba(8, 8, 8, 0.75);
+    background: rgba(8, 8, 8, 0.8);
     -webkit-backdrop-filter: blur(16px);
     backdrop-filter: blur(16px);
     border-bottom: 0.125rem solid #1a1a1a;
@@ -68,7 +68,6 @@ main{
 .foot {
     border-top: 0.125rem solid #1a1a1a;
     font-size: 0.875rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: black;
 }
 
@@ -219,6 +218,10 @@ html, body {
 
     .mobile-image {
         zoom:0.8;
+    }
+
+    .mobile-academics-image{
+        zoom:0.6;
     }
 
     h1{
