@@ -44,7 +44,7 @@
 .experience-box h4, .education-box h4 {
     margin-top: 0.5rem;
     color: #f2bd67;
-    font-size: 1rem;
+    padding-bottom: 1rem;
 }
 
 .experience-box ul {

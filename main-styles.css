@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding-top: 3.75rem;
     font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
     background-color: rgb(8,8,8);
     min-height: 100vh;
@@ -194,6 +195,7 @@ html, body {
         line-height: 1.5rem;
     }
 
+
     nav{
         height: 3.4rem;
     }
@@ -227,6 +229,10 @@ html, body {
 
     h3{
         font-size: 1.05rem;
+    }
+
+    h4{
+        font-size: 0.95rem;
     }
 
     p, .nav-links a{
