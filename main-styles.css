@@ -36,17 +36,19 @@ main{
 
 .top-navbar {
     height: 3.75rem;
-    width: 100%;
     padding: 0 1.9375rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: rgba(8,8,8,0.75);
+    background: rgba(8, 8, 8, 0.75);
+    -webkit-backdrop-filter: blur(16px);
     backdrop-filter: blur(16px);
     border-bottom: 0.125rem solid #1a1a1a;
     position: fixed;
     top: 0;
     left: 0;
+    right: 0;
+    box-sizing: border-box;
     z-index: 1000;
 }
 
