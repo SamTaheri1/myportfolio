@@ -70,3 +70,23 @@
 .repo-box a:hover {
     opacity: 0.6;
 }
+
+@media (max-width: 768px) {
+
+    main, .portfolio-page,
+    .project-section, .github-section {
+        width: 98%;
+        max-width: none;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+        box-sizing: border-box;
+    }
+
+    .project-card {
+        width: 100%;
+        max-width: none;
+        box-sizing: border-box;
+    }
+}
