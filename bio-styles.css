@@ -41,7 +41,7 @@
     font-style: italic;
 }
 
-.experience-box h4, .education-box h4 {
+.experience-box h4, .education-box h4, a {
     margin-top: 0.5rem;
     color: #f2bd67;
     padding-bottom: 1rem;

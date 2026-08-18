@@ -69,6 +69,7 @@ main{
     border-top: 0.125rem solid #1a1a1a;
     font-size: 0.875rem;
     background-color: black;
+    padding-bottom: 4rem;
 }
 
 .img-main {
@@ -102,11 +103,19 @@ main{
 }
 
 nav {
-    background-color: #0B4137;
+    background-color: rgb(11, 65, 55, 0.8);
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+    border-top: 0.125rem solid #1a1a1a;
     height: 4.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 nav ul {
@@ -213,7 +222,7 @@ html, body {
         padding-bottom: 2rem;
     }
     .secondary-mobile-spacing{
-        padding-bottom: 1rem
+        padding-bottom: 1rem;
     }
 
     .mobile-image {
@@ -237,7 +246,7 @@ html, body {
     }
 
     h4{
-        font-size: 0.95rem;
+        font-size: 0.9rem;
     }
 
     body, .nav-links a{
