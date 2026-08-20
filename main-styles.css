@@ -81,17 +81,11 @@ main{
     user-select: none;
 }
 
-.items-wrapper {
-    overflow: hidden;
-    width: 100%;
-}
-
 .items {
     display: flex;
     align-items: center;
     justify-content: center;
     gap:30px;
-    animation: items 10s linear infinite;
 }
 
 .items img {
