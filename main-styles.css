@@ -107,8 +107,11 @@ nav {
     align-items: center;
     position: fixed;
     bottom: 0;
-    left: 0;
     width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top-left-radius: 2.5rem;
+    border-top-right-radius: 2.5rem;
     z-index: 1000;
 }
 
@@ -202,6 +205,8 @@ html, body {
 
     nav{
         height: 3.4rem;
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
     }
 
     .spacing{
