@@ -40,7 +40,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: rgba(8, 8, 8, 0.8);
+    background: rgba(8, 8, 8, 0.75);
     -webkit-backdrop-filter: blur(16px);
     backdrop-filter: blur(16px);
     border-bottom: 0.125rem solid #1a1a1a;
@@ -97,7 +97,7 @@ main{
 }
 
 nav {
-    background-color: rgb(11, 65, 55, 0.8);
+    background-color: rgb(28, 76, 127, 0.75);
     -webkit-backdrop-filter: blur(16px);
     backdrop-filter: blur(16px);
     border-top: 0.125rem solid #1a1a1a;
